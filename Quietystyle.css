@@ -1,0 +1,637 @@
+html,
+body {
+    behavior: smooth;
+}
+
+.header {
+    background-color: white;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.navbar li {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+}
+
+.dropdown-item {
+    height: 50px;
+    font-size: 15px;
+}
+
+.badge {
+    height: 100%;
+    width: 40px;
+}
+
+.about_dropdown {
+    width: 500px;
+}
+
+.about_dropdown h1 {
+    font-size: 20px;
+}
+
+.about_dropdown a {
+    color: black;
+}
+
+.about_dropdown a:hover {
+    color: #058fc2;
+}
+
+.dropdown_menu a {
+    color: black;
+}
+
+.dropdown_menu .text2 {
+    font-size: 14px;
+}
+
+.dropdown_menu a:hover {
+    color: #058fc2;
+}
+
+.btn1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.btn1:hover {
+    border: 2px solid #058fc2;
+    color: #058fc2;
+    background-color: transparent;
+    transition-duration: 600ms;
+    transition-timing-function: ease-out;
+}
+
+
+/* section1 */
+
+.section1 {
+    background-color: rgb(7, 6, 63);
+    padding-top: 100px;
+}
+
+.para {
+    font-size: 20px;
+    color: rgb(214, 213, 213);
+}
+
+.section_h1 {
+    font-size: 40px;
+}
+
+.img2 {
+    margin-top: -100px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.img3 {
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+
+/* Ourstory */
+
+.our_story {
+    margin-top: 300px;
+    background-image: url('	https://quiety-wp.themetags.com/wp-content/uploads/2021/10/dot-dot-wave-shape-1.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+}
+
+
+/* feature */
+
+.first_info .icon_box,
+.info_box {
+    margin-top: 50px;
+}
+
+
+/* ourteam */
+
+.card img {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover img {
+    transform: scale(0.85);
+    transition: 0.4s ease-in-out;
+}
+
+.Our_team_img_icon_section {
+    display: none;
+}
+
+.card:hover .Our_team_img_icon_section {
+    display: block;
+    transition-duration: 700ms;
+    transition-timing-function: ease-out;
+}
+
+.Our_team_img_icon_section ul {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.Our_team_img_icon_section ul li {
+    list-style-type: none;
+    display: inline-block;
+    border: 2px solid white;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.Our_team_img_icon_section .icon {
+    position: absolute;
+    bottom: 20px;
+}
+
+.Our_team_img_icon_section .icon i {
+    color: white;
+}
+
+.Our_team_img_icon_section .icon li:hover {
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 700ms;
+}
+
+.Our_team_img_icon_section .icon li:hover i {
+    color: blue;
+    cursor: pointer;
+}
+
+
+/* our_office */
+
+.city_name {
+    margin-top: 100px;
+    opacity: 0;
+}
+
+.city_addr {
+    opacity: 0;
+}
+
+.card:hover .city_name {
+    opacity: 1;
+    transition-duration: 1.5s;
+}
+
+.card:hover .city_addr {
+    opacity: 1;
+    transition-duration: 1.5s;
+}
+
+
+/* freeetrial */
+
+.para2 i {
+    color: white;
+    cursor: pointer;
+    font-size: 50px;
+    margin-bottom: -30px;
+}
+
+.paraname {
+    color: white;
+}
+
+.free_trial .play_icon {
+    background-color: transparent;
+    color: white;
+}
+
+.free_trial .play_icon:hover {
+    color: #058fc2;
+    background-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+.footer input:focus {
+    border: none;
+}
+
+.footer a {
+    color: rgb(109, 109, 109);
+}
+
+.footer a:hover {
+    color: #058fc2;
+    text-decoration: none;
+}
+
+.footer .footer_icon i {
+    border: 1px solid gray;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+
+.footer .footer_icon i:hover {
+    background-color: #058fc2;
+    color: white;
+}
+
+
+/* ============================================================================================================== */
+
+
+/* services */
+
+.service_header2 .heading_1 {
+    font-size: 60px;
+    color: white;
+    margin-top: 70px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.service_header2 .para_2 {
+    margin-top: -60px;
+    margin-bottom: 160px;
+}
+
+.Services_container {
+    background-image: url('https://quiety-wp.themetags.com/wp-content/uploads/2021/10/page-header-bg.svg');
+    background-size: cover;
+    background-position: center center;
+}
+
+
+/* servicesection2 */
+
+.service_section2 .heading_1 {
+    font-weight: 700;
+}
+
+
+/* ============================================================================================================= */
+
+
+/* pricingpage
+ */
+
+.faq_card:hover .faq_card_heading {
+    color: #058fc2;
+}
+
+
+/* ========================================================================================================== */
+
+
+/* contactpage */
+
+.contact_section .contact_card1 {
+    transition: all 500ms ease-in-out;
+    margin-top: 20px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+}
+
+.contact_section .contact_card1:hover {
+    margin-top: 0px;
+    box-shadow: 0.5px 0.5px 20px 1px black;
+    cursor: pointer;
+    transition: all 800ms;
+    background-color: white;
+}
+
+.contact_form .contact_form_data input,
+textarea,
+select {
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(243, 243, 243);
+}
+
+.contact_form .contact_form_data input,
+textarea:focus {
+    border: 0px;
+}
+
+
+/* ============================================================================================================= */
+
+
+/* homepage */
+
+.home_banner {
+    padding-top: 120px;
+}
+
+.home_banner_heading {
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.home_banner_para {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.home_play_icon {
+    color: white;
+}
+
+.home_play_icon:hover {
+    color: #058fc2;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.home_feature .box1 {
+    transition: all 500ms ease-in-out;
+    margin-top: 20px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+}
+
+.home_feature .box1:hover {
+    margin-top: 0px;
+    box-shadow: 0.5px 0.5px 20px 1px black;
+    cursor: pointer;
+    transition: all 800ms;
+    background-color: white;
+}
+
+.home_feature .box2 {
+    background-image: url('https://quiety-wp.themetags.com/wp-content/plugins/quiety-core/elementor/assets/images/promo.png');
+    background-size: 40% 80%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: rgb(240, 217, 217);
+    border-radius: 10px;
+}
+
+.home_feature .box3 {
+    background-image: url('https://quiety-wp.themetags.com/wp-content/uploads/2021/10/cta-img-2.png');
+    background-size: 40% 80%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: rgb(183, 240, 241);
+    border-radius: 10px;
+}
+
+.home_process .first_info1 p {
+    font-size: 15px;
+}
+
+.home_process .process_info_box .icon_box i {
+    color: rgb(82, 80, 80);
+}
+
+.home_process .process_info_box:hover .icon_box i {
+    color: white;
+    cursor: pointer;
+    background-color: #058fc2;
+}
+
+
+/* ================================================================================================================= */
+
+
+/* creeardetailspage */
+
+.career_details_img_div {
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.career_details_img_div:hover {
+    box-shadow: 2px 2px 20px 0px black;
+}
+
+.career_details_img_div:hover {
+    margin-top: 0px;
+    transition: all 5s ease-in-out;
+}
+
+.career_details_img_div:hover .career_details_img {
+    transform: scale(2.5);
+    transition: all 10s ease-in-out;
+}
+
+@media(max-width:666px) {
+    .about_dropdown {
+        width: 300px;
+    }
+    .img2 {
+        margin-top: 50px;
+    }
+    .section_h1 {
+        font-size: 30px;
+    }
+    .section1 {
+        height: 1500px;
+    }
+    .our_story .first_h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .our_story .para1 {
+        font-size: 20px;
+    }
+    .our_storyinfo {
+        margin-top: 100px;
+    }
+    .our_storyinfo h1 {
+        font-size: 32px;
+    }
+    .first_info .icon_box {
+        width: 10%;
+    }
+    .first_info .icon_box i {
+        padding: 15px;
+        margin-right: 20px;
+    }
+    .first_info .info_box {
+        width: 75%;
+        margin-left: 30px;
+    }
+    .feature_img {
+        margin-top: 20px;
+    }
+    .Our_team_img_icon_section .icon {
+        margin-left: 20%;
+    }
+    .testimonials_slider {
+        margin-left: 0px;
+    }
+    .service_header2 .heading_1 {
+        font-size: 40px;
+    }
+    .service_section3 .heading_2 {
+        font-size: 40px;
+    }
+    .accordion .collapsing_heading {
+        font-size: 16px;
+    }
+    .contact_form .contact_form_heading {
+        font-size: 30px;
+        background-size: 40% 80%;
+        background-repeat: no-repeat;
+    }
+    .home_feature .box2 {
+        background-image: url('https://quiety-wp.themetags.com/wp-content/plugins/quiety-core/elementor/assets/images/promo.png');
+        background-size: 40% 70%;
+    }
+    .home_feature .box3 {
+        background-image: url('https://quiety-wp.themetags.com/wp-content/uploads/2021/10/cta-img-2.png');
+        background-size: 40% 70%;
+    }
+    .home_advance_h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media(min-width:667px) {
+    .about_dropdown {
+        width: 300px;
+    }
+    .section_h1 {
+        font-size: 30px;
+    }
+    .img2 {
+        margin-top: -100px;
+        margin-bottom: 0px;
+    }
+    .img3 {
+        margin-top: -80px;
+        margin-bottom: 50px;
+    }
+    .section1 {
+        height: 550px;
+    }
+    .our_story .first_h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .our_story .para1 {
+        font-size: 15px;
+    }
+    .first_info .icon_box {
+        width: 12%;
+    }
+    .first_info .icon_box i {
+        padding: 13px;
+        margin-right: 20px;
+    }
+    .first_info .info_box {
+        width: 75%;
+        margin-left: 30px;
+    }
+    .feature h1 {
+        font-size: 35px;
+    }
+    .feature_img {
+        margin-top: 200px;
+    }
+    .Our_team_img_icon_section .icon {
+        margin-left: 10%;
+    }
+    .testimonials_slider {
+        padding-left: 60px;
+    }
+    .service_header2 .heading_1 {
+        font-size: 50px;
+    }
+    .service_section3 .heading_2 {
+        font-size: 50px;
+    }
+    .contact_form .contact_form_heading {
+        font-size: 40px;
+    }
+    .home_feature .box2 {
+        background-image: url('https://quiety-wp.themetags.com/wp-content/plugins/quiety-core/elementor/assets/images/promo.png');
+        background-size: 40% 50%;
+    }
+    .home_feature .box3 {
+        background-image: url('https://quiety-wp.themetags.com/wp-content/uploads/2021/10/cta-img-2.png');
+        background-size: 40% 50%;
+    }
+    .home_advance_h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .testimonials_img_col {
+        margin-top: 230px;
+    }
+}
+
+@media(min-width:1200px) {
+    .about_dropdown {
+        width: 500px;
+    }
+    .img2 {
+        margin-top: -100px;
+    }
+    .img3 {
+        margin-top: 0px;
+    }
+    .section1 {
+        height: 800px;
+    }
+    .our_story .first_h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+    .our_story .para1 {
+        font-size: 20px;
+    }
+    .feature_img {
+        margin-top: 20px;
+    }
+    .Our_team_img_icon_section .icon {
+        margin-left: 0%;
+    }
+    .testimonials_slider {
+        padding-left: 150px;
+    }
+    .service_header2 .heading_1 {
+        font-size: 60px;
+    }
+    .service_section3 .heading_2 {
+        font-size: 50px;
+    }
+    .contact_form .contact_form_heading {
+        font-size: 50px;
+    }
+    .home_feature .box2 {
+        background-image: url('https://quiety-wp.themetags.com/wp-content/plugins/quiety-core/elementor/assets/images/promo.png');
+        background-size: 40% 80%;
+    }
+    .home_feature .box3 {
+        background-image: url('https://quiety-wp.themetags.com/wp-content/uploads/2021/10/cta-img-2.png');
+        background-size: 40% 80%;
+    }
+    .home_advance_h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+    .testimonials_img_col {
+        margin-top: 0px;
+    }
+}
